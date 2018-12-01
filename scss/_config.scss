@@ -3,7 +3,7 @@ $font-stack: "Playfair Display", serif;
 $primary-color: rgb(59, 64, 90);
 $secondary-color: rgb(248, 184, 8);
 $show-home-image: true;
-$home-image: url(/img/background.jpg);
+$home-image: url(../img/background.jpg);
 $background-opacity: 0.5;
 
 @mixin easeOut {
