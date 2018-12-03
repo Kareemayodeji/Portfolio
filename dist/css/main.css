@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../dist/img/portrait.jpeg);
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #f8b808; }
   .menu .nav-item {
@@ -165,8 +165,6 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    width: 500px;
-    height: 500px;
     margin: auto;
     border-radius: 50%;
     border: #f8b808 3px solid; }
@@ -179,7 +177,7 @@ main {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
-  .about-info job {
+  .about-info .job {
     background: #454b69;
     padding: 0.5rem;
     border-bottom: #f8b808 5px solid; }
@@ -188,13 +186,14 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
-  .project img {
-    width: 100%;
-    border: 3px #fff solid; }
-    .project img.hover {
-      opacity: 0.5;
-      border-color: #f8b808;
-      transition: all 0.5s ease-out; }
+
+img {
+  width: 100%;
+  border: 3px #fff solid; }
+  img.hover {
+    opacity: 0.5;
+    border-color: #f8b808;
+    transition: all 0.5s ease-out; }
 
 .boxes {
   display: flex;
@@ -270,7 +269,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/portrait_small.jpeg);
+      background: url("../img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
